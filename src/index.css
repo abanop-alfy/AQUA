@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.card {
+    width: 275px;
+    max-width: 275px;
+    margin: 16px;
+    min-width: 275px;
+}
+
+.Home {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.Media {
+    height: 140px;
+}
+
+.login-page .title {
+    width: 100%;
+    line-height: 46px;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ED2553;
+    position: relative;
+}
+
+.pass-forgot {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    display: block;
+    margin-top: 1rem;
+}
+
+.login-page .input {
+    margin-bottom: 2rem;
+}
+
+.login-page {
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    background-image: url("/images/ain.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page .materialContainer {
+    width: 100%;
+    max-width: 360px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+#toast-container {
+    margin-top: 1rem;
+}
+
+#toast-container.toast-top-full-width>.toast {
+    max-width: 570px;
+}
+
+#toast-container>.toast-success {
+    background-color: #35c8c3;
+    opacity: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#toast-container>.toast-success:hover {
+    background-color: #35c8c3;
+    opacity: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.summary {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.MuiLinearProgress-bar1Determinate {
+    background-color: black;
+}
+
+.footer {
+    background: rgba(63, 81, 181, 1);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* //////////////////////////////////////////////////////// */
+
+.et-hero-tabs,
+.et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 121vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.et-hero-tabs,
+.et-slide h1 {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+
+.et-hero-tabs,
+.et-slide h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.et-hero-tabs-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 10;
+}
+
+.et-hero-tabs-container a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+}
+
+.et-hero-tab:hover {
+    color: white;
+    background: rgba(102, 177, 241, 0.8);
+    transition: all 0.5s ease;
+}
+
+.et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #66B1F1;
+    transition: left 0.3s ease;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.selected {
+    color: rgba(4, 15, 80, 0.86);
+    font-size: 22px;
+    font-weight: 800;
+    font-style: unset;
+    font-stretch: extra-expanded;
+}
+
+.formassistant {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1a2981;
+    font-weight: 400px;
+}
+
+.button {
+    overflow: hidden;
+    ;
+}
+
+.Home:hover {
+    color: rgba(219, 219, 221, 0.514);
+    text-decoration: none;
+}
+
+.selected:hover {
+    color: rgba(4, 15, 80, 0.86);
+}
+
+.surveylogo {
+    background-image: url("/images/survey.jpg");
+    background-size: cover;
+}
+
+.drawerMenu .MuiButton-root {
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+
+/* ////////////////////////////////////////// */
